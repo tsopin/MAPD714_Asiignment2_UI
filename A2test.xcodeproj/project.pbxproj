@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7421676E1FE9C72E0008E99A /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7421676D1FE9C72E0008E99A /* DetailController.swift */; };
 		743F19E41FE5B7440069ED83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F19E31FE5B7440069ED83 /* AppDelegate.swift */; };
 		743F19E61FE5B7440069ED83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F19E51FE5B7440069ED83 /* ViewController.swift */; };
 		743F19E91FE5B7440069ED83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743F19E71FE5B7440069ED83 /* Main.storyboard */; };
 		743F19EB1FE5B7440069ED83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743F19EA1FE5B7440069ED83 /* Assets.xcassets */; };
 		743F19EE1FE5B7440069ED83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743F19EC1FE5B7440069ED83 /* LaunchScreen.storyboard */; };
+		747C16391FEB52D400892D82 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C16381FEB52D400892D82 /* TodoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7421676D1FE9C72E0008E99A /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		743F19E01FE5B7440069ED83 /* A2test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743F19E31FE5B7440069ED83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		743F19E51FE5B7440069ED83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		743F19EA1FE5B7440069ED83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		743F19ED1FE5B7440069ED83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		743F19EF1FE5B7440069ED83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747C16381FEB52D400892D82 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				743F19E31FE5B7440069ED83 /* AppDelegate.swift */,
 				743F19E51FE5B7440069ED83 /* ViewController.swift */,
+				7421676D1FE9C72E0008E99A /* DetailController.swift */,
 				743F19E71FE5B7440069ED83 /* Main.storyboard */,
 				743F19EA1FE5B7440069ED83 /* Assets.xcassets */,
 				743F19EC1FE5B7440069ED83 /* LaunchScreen.storyboard */,
 				743F19EF1FE5B7440069ED83 /* Info.plist */,
+				747C16381FEB52D400892D82 /* TodoCell.swift */,
 			);
 			path = A2test;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				743F19E61FE5B7440069ED83 /* ViewController.swift in Sources */,
+				7421676E1FE9C72E0008E99A /* DetailController.swift in Sources */,
 				743F19E41FE5B7440069ED83 /* AppDelegate.swift in Sources */,
+				747C16391FEB52D400892D82 /* TodoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +286,7 @@
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = A2test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.centennialcollege.A2test;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.Asignment2-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +301,7 @@
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = A2test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.centennialcollege.A2test;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.Asignment2-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
